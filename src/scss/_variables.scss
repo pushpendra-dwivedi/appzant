@@ -1,0 +1,20 @@
+// Bootstrap variables overrides
+$primary: #FF6A00;
+$dark: #101114;
+$black: #050505;
+$body-bg: $black;
+$body-color: #f8f9fa;
+
+// Custom Variables
+$neon-orange: #FF6A00;
+$neon-blue: #00d2ff;
+$glass-bg: rgba(16, 17, 20, 0.6);
+$glass-border: rgba(255, 255, 255, 0.1);
+
+// Typography
+$font-family-sans-serif: 'Inter', sans-serif;
+$headings-font-family: 'Space Grotesk', sans-serif;
+$headings-font-weight: 700;
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap";
