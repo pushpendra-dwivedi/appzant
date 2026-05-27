@@ -10,6 +10,10 @@
     position: relative;
     overflow: hidden;
 
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+    }
+
     &::before {
         content: '';
         position: absolute;
