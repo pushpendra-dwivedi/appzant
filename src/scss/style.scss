@@ -15,6 +15,12 @@
     align-items: center;
     overflow: hidden;
     padding-top: 80px;
+    padding-bottom: 40px;
+
+    @media (max-width: 768px) {
+        padding-top: 100px;
+        min-height: auto;
+    }
 
     .hero-content {
         position: relative;
