@@ -9,7 +9,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $headings-font-family;
-    color: #ffffff;
+    color: $dark;
+    font-weight: $headings-font-weight;
 }
 
 a {
@@ -18,14 +19,13 @@ a {
     transition: all 0.3s ease;
     
     &:hover {
-        color: lighten($primary, 15%);
-        text-shadow: 0 0 10px rgba($primary, 0.5);
+        color: darken($primary, 15%);
     }
 }
 
 ::selection {
-    background-color: $primary;
-    color: $black;
+    background-color: rgba($primary, 0.2);
+    color: $dark;
 }
 
 // Digital Mesh Background
@@ -36,8 +36,8 @@ a {
     width: 100vw;
     height: 100vh;
     background-image: 
-        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+        linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
     background-size: 50px 50px;
     z-index: -1;
     pointer-events: none;
